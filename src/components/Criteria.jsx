@@ -1,20 +1,23 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, GlobeAmericasIcon, ServerIcon, CircleStackIcon } from '@heroicons/react/20/solid'
+import MiamiSkyline from '@/images/miami-skyline.jpg'
+import Pitch from '@/images/pitch.jpeg'
+import Image from 'next/image'
 
 const features = [
   {
     name: 'Industries',
-    description: 'Utilize AI-Technology to address challenges in Healthcare, Climate, and similar sectors that promote social good.',
+    description: 'Utilize AI-Technology to address challenges in FinTech, Healthcare, Climate, and similar sectors that promote social good.',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Company Stage',
     description: 'Be at the seed stage or beyond.',
-    icon: LockClosedIcon,
+    icon: CircleStackIcon,
   },
   {
     name: 'Company Location',
     description: 'Florida based company.',
-    icon: ServerIcon,
+    icon: GlobeAmericasIcon,
   },
   {
     name: 'Post-Product',
@@ -36,12 +39,11 @@ export default function Criteria() {
                 Pitch Competition Criteria
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
-                Ac euismod vel sit maecenas.
+                We are looking for the best Gen AI comopanies arcross Florida that are ready to positively impact the world. Here are the criteria for the competition.
               </p>
             </div>
-            <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            <Image
+              src={Pitch}
               alt="Product screenshot"
               className="relative -z-20 min-w-full max-w-xl rounded-xl shadow-xl ring-1 ring-white/10 lg:row-span-4 lg:w-[64rem] lg:max-w-none"
               width={2432}

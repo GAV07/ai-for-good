@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-newsletter.jpg'
+import Link from 'next/link'
 
 function ArrowRightIcon(props) {
   return (
@@ -39,12 +40,12 @@ export function Newsletter() {
               </p>
               <p className="mt-4 text-lg tracking-tight text-blue-900">
                 Get updates on all of our events and be the first to get
-                notified when tickets go on sale.
+                notified when we announce updated prizes and judges.
               </p>
             </div>
-            <form>
+            <form netlify>
               <h3 className="text-lg font-semibold tracking-tight text-blue-900">
-                Sign up to our newsletter <span aria-hidden="true">&darr;</span>
+                {/* Stay updated with everything Miami Tech<span aria-hidden="true">&darr;</span> */}
               </h3>
               <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
                 <input
@@ -62,6 +63,9 @@ export function Newsletter() {
                 </Button>
               </div>
             </form>
+  
+
+
           </div>
         </div>
       </Container>

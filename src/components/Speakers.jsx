@@ -47,97 +47,8 @@ const days = [
         role: 'General Manager at Initech',
         image: dianneGuilianelliImage,
       },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
     ],
-  },
-  {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    speakers: [
-      {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
-        image: damarisKimuraImage,
-      },
-      {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
-        image: ibrahimFraschImage,
-      },
-      {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: cathleneBurrageImage,
-      },
-      {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
-        image: rinaldoBeynonImage,
-      },
-      {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
-      },
-    ],
-  },
-  {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    speakers: [
-      {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
-      },
-      {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
-        image: heatherTerryImage,
-      },
-      {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
-        image: piersWilkinsImage,
-      },
-      {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Roll Out',
-        image: richardAstley,
-      },
-    ],
-  },
+  }
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -193,8 +104,7 @@ export function Speakers() {
             Judges
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+            We have assembled a panel of industry experts to evaluate your best AI solutions.
           </p>
         </div>
         <Tab.Group

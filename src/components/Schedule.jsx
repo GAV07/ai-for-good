@@ -10,53 +10,29 @@ import Criteria  from '@/components/Criteria'
 
 const schedule = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    date: 'April 2nd',
+    dateTime: '2024-04-02',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      '',
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: 'Registration and Networking',
+        description: 'Meet with other AI experts and enthusiasts',
+        start: '6:00PM',
+        end: '6:30PM',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Welcome and Competition Kickoff',
+        description: 'Opening remarks and competition overview',
+        start: '6:30:00PM',
+        end: '8:00PM',
       },
       {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
+        name: 'Announce Winners and Closing',
+        description: 'Close of the competition, announcement of winners, and future programming announcement',
+        start: '8:00PM',
+        end: '9:00PM',
+      }
     ],
   },
 ]
@@ -200,12 +176,10 @@ export function Schedule() {
         <Criteria />
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Schedule written in AI for AI for Good
+            Competition Schedule
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            We are bringing together AI experts and builders to show off their latest and greatest AI solutions.
           </p>
         </div>
       </Container>
