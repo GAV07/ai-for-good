@@ -27,7 +27,7 @@ export function Hero() {
               ['Founders Pitching', '8'],
               ['Location', 'Miami, FL'],
               ['Venue', 'TBD'],
-              ['Date', 'April 2nd, 2024'],
+              ['Date', 'TBD'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-grey-800">{name}</dt>

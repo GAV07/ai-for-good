@@ -10,7 +10,7 @@ import Criteria  from '@/components/Criteria'
 
 const schedule = [
   {
-    date: 'April 2nd',
+    date: 'Event Day',
     dateTime: '2024-04-02',
     summary:
       '',
